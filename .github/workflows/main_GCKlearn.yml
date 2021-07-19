@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'GCKlearn'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a0d1303d0b9648a091b4471af595d02a }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e63677b34e454ddcbb9b9ccff22e7072 }}
         package: .
