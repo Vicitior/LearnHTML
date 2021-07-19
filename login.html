@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <style>
+            body{
+                background-color:#1E9FFF;
+            }
+            .container{
+                width: 550px;
+                height: 530px;
+                margin: 0 auto;
+                background-color:white;
+                text-align:center;
+            }
+            #logo{
+                width:100px;
+            }
+            #username{
+                margin-top: 10px;
+                width: 426px;
+                height:55px;
+                margin-left: -30px;
+                background-color: transparent;
+                border-radius: 5px;
+                border: 1px solid lightgray;
+                padding-left:30px;
+            }
+            #password{
+                margin-top: 10px;
+                width: 426px;
+                height:55px;
+                margin-left: -30px;
+                background-color: transparent;
+                border-radius: 5px;
+                border: 1px solid lightgray;
+                padding-left:30px;
+            }
+            #loginBtn{
+                margin-top: 10px;
+                width: 456px;
+                height:55px;
+                background:#FF6600;
+                border-radius: 5px;
+                border: 1px solid #FF6600;
+            }
+            #last{
+                margin-top: 20px;
+            }
+            .qq{
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action = "receive.html" method="post">
+           <div class = "container">
+                <img src="img/logo.jpg" id="logo">
+                <h1>毕业设计管理系统</h1>
+                <img src = "img/human.jpg">
+                <input type = "text" id = "username" placeholder = "请输入用户名" name = "username"><br>
+                <img src = "img/lock.jpg">
+                <input type="password" id="password" placeholder ="请输入密码" name = "password"><br>
+                <button id = "loginBtn" type = "submit">登录</button><br>
+                <a href = "https://id.qq.com/login/ptlogin.html"><img src = "img/qq.png" class = "qq"></a>
+                <a href = "https://wx.qq.com/"><img src = "img/weixin.png" class = "qq"></a>
+                <a href = "https://passport.weibo.cn/signin/welcome"><img src = "img/weibo.png" class = "qq"></a>
+                   <div id = "last">
+                       <h6>开发者：郭晨凯 中北大学软件工程</h6>
+                   </div>
+           </div>
+        </form>
+    </body>
+</html>
